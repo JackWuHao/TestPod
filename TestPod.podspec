@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'git@github.com:JackWuHao/TestPod.git', :tag => s.version.to_s }
   s.requires_arc = true
   s.ios.deployment_target = '9.0'
-  s.source_files = 'TestPod/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   #s.resource_bundles = {
    # 'TestPod' => ['TestPod/Assets/*.png']
